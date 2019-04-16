@@ -1,0 +1,80 @@
+html{
+    padding: 0px;
+    margin: 0px;
+    background: url(../imagenes/car.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#principal{
+    width: 900px;
+    height: 600px;
+    margin-left: 250px;
+    margin-top: 20px;
+    background: black;
+}
+#logo{
+    height: 100px;
+    margin-left: 5px;
+}
+#secundario{
+    width: 750px;
+    height: 580px;
+    margin-left: 290px;
+    margin-top: 30px;
+    background: rgb(226, 210, 210);
+}
+#letra{
+    margin-left: 200px;
+    width: 250px;
+}
+@font-face{
+    font-family: "BadScript-Regular";
+     src: url(BadScript-Regular.ttf);
+}
+p{
+    margin-left: 150px;
+    margin-top: -90px;
+    font-family: "BadScript-Regular";
+    font-size: 300%;
+    color: rgb(91, 91, 209);
+}
+nav{
+    float: left;
+    background: rgb(90, 143, 241);
+    width: 750px;
+    height: 50px;
+}
+nav li{
+    list-style: none;
+    color: black;
+}
+nav li a{
+    text-decoration: none;
+    float: left;
+    color: white;
+    padding: 1em 2em 1em 4em;
+}
+nav li a hover{
+    transition: .3s all ease;
+    text-decoration: none;
+    float: left;
+    background-color: black;
+    color: white;
+    padding: 1em 1em 1em 1em;
+}
+#inicio{
+    display: none;
+}
+#ventas{
+    display: none;
+}
+#clientes{
+    display: none;
+}
+#producto{
+    display: none;
+}
+#tablapro{
+    margin-top: 100px;
+    margin-left: 150px;
+}
